@@ -76,11 +76,17 @@
         android:layout_height="wrap_content"
         android:text="개인정보 활용 동의" />
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/cat" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cat" />
+
+    </LinearLayout>
 
     <Button
         android:layout_width="match_parent"
